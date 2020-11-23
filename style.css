@@ -14,7 +14,7 @@ body{
     border: 0.5px solid white;
     width: 40px;
     height: 30px;
-    margin-left: 1060px;
+    margin-left: 80%;
     margin-top: 15px;
     border-radius: 4px;
     position: flex;
@@ -27,9 +27,9 @@ body{
     margin-left: 10px;
 }
 img{
-    width: 40px;
-    height: 30px;
-    margin: 20px;
+    width: 30px;
+    height: 20px;
+    margin: 21px 5px 20px 20px;
 }
 .album{
     font-size: 20px;
@@ -76,13 +76,11 @@ img{
 }
 .otherbigbox{
     background-color: rgb(235, 231, 231);
-}
-.smallerbigbox{
-    width: 1300px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    padding: 0 70px;
 }
+
 .card{
     width: 400px;
     height: 400px;
@@ -141,5 +139,22 @@ margin: 0px;
     height: 20px;
     margin-top: 5px;
 }
-
-
+footer{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.firstfoot{
+    height: 70px;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.secondfooter{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    padding-left: 35%;
+}
